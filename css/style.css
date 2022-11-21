@@ -1,0 +1,31 @@
+body {
+  font-family: "Yu Mincho";
+  font-size: 18px;
+}
+
+table {
+  font-size: 18px;
+
+}
+
+label.error {
+  color: red;
+}
+
+.number-exit-error {
+  color: red;
+}
+
+.gradient-violet {
+  /* fallback for old browsers */
+  background: #e935e0;
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* 	background: -webkit-linear-gradient(to right, rgba(201, 246, 255, 1),
+		rgba(53, 214, 237, 0.66)); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #E6E6FA, #D8BFD8, #DDA0DD, #EE82EE);
+}
+
+.violet {
+  background: #d480d0;
+}
